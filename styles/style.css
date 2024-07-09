@@ -26,17 +26,19 @@
 
 .section-p {
     color: rgb(13, 19, 33, 0.7);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
     margin-top: 24px;
 }
 
 /* common css end */
+
+/* hero section  */
 .hero-bg {
-    width: 1250px;
+    width: 100%;
     height: 580px;
     background: url(../images/Hero-bg.png);
     background-size: cover;
@@ -95,7 +97,10 @@
     background: rgb(13, 19, 33);
 }
 
+/* hero section  */
+
 /* dev section */
+
 #dev {
     padding: 80px;
     border-radius: 16px;
@@ -118,7 +123,6 @@
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     padding: 48px;
-    border: 1px solid black;
     margin-top: 32px;
 }
 
@@ -134,15 +138,15 @@
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 30px;
     letter-spacing: 0%;
 }
 
 .dev-content p {
     color: rgb(13, 19, 33, 0.7);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
     letter-spacing: 0%;
     margin-top: 16px;
     margin-bottom: 32px;
@@ -158,3 +162,24 @@
     letter-spacing: 0%;
     padding: 12px 20px;
 }
+
+/* dev section */
+
+/* inspiration section  */
+#inspire {}
+
+#inspire .inspire-if {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+#inspire>p {
+    margin-bottom: 48px;
+    opacity: 0.7;
+
+}
+
+/* inspiration section  */
