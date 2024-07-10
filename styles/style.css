@@ -309,7 +309,6 @@ iframe {
     color: white !important;
     border-radius: 16px;
     background-image: url('/images/handshake.jpg');
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
     background-position: center;
     background-size: cover;
 }
