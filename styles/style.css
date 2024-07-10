@@ -36,6 +36,42 @@
 
 /* common css end */
 
+/* navbar section */
+nav {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav button {
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 15px 22px 15px 22px;
+}
+
+.nav-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* navbar section */
+
 /* hero section  */
 .hero-bg {
     width: 100%;
@@ -62,7 +98,7 @@
 
 .hero-bg .hero-content .hero-h1 {
     color: rgb(13, 19, 33);
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 800;
     line-height: 38px;
     letter-spacing: 0%;
@@ -202,6 +238,7 @@
 
 .t1 {
     background: rgba(255, 76, 30, 0.05);
+
 }
 
 .t2 {
@@ -218,6 +255,16 @@
     height: auto;
     border-radius: 16px;
 
+}
+
+.target-card>h2 {
+    padding-top: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .target-card>p {
@@ -310,3 +357,32 @@
 
 
 /* form section  */
+
+/* footer section  */
+
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+#footer {
+    margin-top: 80px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#footer p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* footer section  */
