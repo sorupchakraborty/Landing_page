@@ -72,9 +72,9 @@
     margin: 24px 0 32px;
     padding: 0 73px;
     color: rgb(13, 19, 33);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
@@ -183,3 +183,65 @@
 }
 
 /* inspiration section  */
+
+/* current target section  */
+
+#target {
+    margin-top: 150px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+
+.t1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.t2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.t3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-card {
+    padding: 40px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 16px;
+
+}
+
+.target-card>p {
+    margin-top: 10px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.target-card .target-card-a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+
+
+/* current target section  */
