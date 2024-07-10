@@ -308,7 +308,7 @@ iframe {
     text-align: center;
     color: white !important;
     border-radius: 16px;
-    background-image: url('/images/handshake.jpg');
+    background-image: url('../images/handshake.jpg');
     background-position: center;
     background-size: cover;
 }
