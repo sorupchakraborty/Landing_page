@@ -208,9 +208,14 @@ nav button {
 #inspire .inspire-if {
     display: flex;
     justify-content: center;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    padding: 20px;
     border-radius: 16px;
 
+}
+
+iframe {
+    border-radius: 20px;
 }
 
 #inspire>p {
@@ -383,6 +388,10 @@ footer {
     text-align: center;
 }
 
-
+.footer-btn {
+    display: flex;
+    align-items:flex-end;
+    column-gap: 20px;
+}
 
 /* footer section  */
