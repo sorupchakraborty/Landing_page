@@ -304,11 +304,11 @@ iframe {
     margin-top: 50px;
     height: auto;
     /* background: url(../images/handshake.jpg); */
+    background-image: url('../images/handshake.jpg');
     padding: 64px 48px;
     text-align: center;
     color: white !important;
     border-radius: 16px;
-    background-image: url('../images/handshake.jpg');
     background-position: center;
     background-size: cover;
 }
